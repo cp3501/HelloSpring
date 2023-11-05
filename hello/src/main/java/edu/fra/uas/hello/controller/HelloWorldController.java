@@ -11,7 +11,7 @@ public class HelloWorldController {
   
     @RequestMapping(value="hello", method=RequestMethod.GET)
     @ResponseBody
-   public String getHelloWorld(@RequestParam String param) {
+   public String getHelloWorld() {
        return "<h1>Ich habe kein Bock mehr </h1>";
    }
    
